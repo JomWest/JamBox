@@ -930,3 +930,27 @@ footer .container { padding: 80px 15px; }
   footer .container { padding: 50px 15px; }
 
 }
+
+
+
+.download-link span {
+  margin-left: 10px;
+}
+
+.music {
+  width: 100px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .download-link ion-icon {
+      font-size: 24px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .download-link ion-icon {
+      font-size: 20px;
+  }
+}
