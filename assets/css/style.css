@@ -15,9 +15,7 @@
 }
 :root {
 
-  /**
-   * colors
-   */
+  
 
   --white: hsl(0, 0%, 100%);
   --black: hsl(0, 0%, 0%);
@@ -31,9 +29,7 @@
   --light-periwinkle: hsl(240, 30%, 83%);
   --maximum-blue-perple: hsl(231, 50%, 77%);
 
-  /**
-   * typography
-   */
+
   --ff-Chillax: "Chillax", sans-serif;
 
 
@@ -47,9 +43,6 @@
   --fw-500: 500;
 	--fw-600: 600;
 
-  /**
-   * transition
-   */
 
   --transition: 0.15s ease-in-out;
 
@@ -59,9 +52,7 @@
 
 
 
-/*-----------------------------------*\
- * #RESET
-\*-----------------------------------*/
+
 
 *, *::before, *::after {
   margin: 0;
@@ -108,9 +99,7 @@ body { overflow-x: hidden; }
 
 
 
-/*-----------------------------------*\
- * #REUSED STYLE
-\*-----------------------------------*/
+
 
 .container {
   padding: 30px 1px 30px 10px; 
@@ -152,9 +141,7 @@ body { overflow-x: hidden; }
 
 
 
-/*-----------------------------------*\
- * #HEADER
-\*-----------------------------------*/
+
 
 header {
   position: relative;
@@ -170,8 +157,8 @@ header .container {
 .navbar {
   background: var(--purple-violet);
   position: fixed;
-  top: 0; /* Cambia la posición a la parte superior de la página */
-  left: 0; /* Cambia el valor de left a 0 para que el menú esté en la parte izquierda */
+  top: 0; 
+  left: 0; 
   width: 100%;
   padding: 20px 10px;
   box-shadow: 0 2px 5px hsla(0, 0%, 0%, 0.5);
@@ -218,19 +205,13 @@ header .container {
 
 
 
-/*-----------------------------------*\
- * #MAIN
-\*-----------------------------------*/
-
 main { background: var(--xiketic-1); }
 
 
 
 
 
-/*-----------------------------------*\
- * #HERO
-\*-----------------------------------*/
+
 
 .hero {
   min-height: 80vh;
@@ -246,9 +227,7 @@ main { background: var(--xiketic-1); }
 
 
 
-/*-----------------------------------*\
- * #DOWNLOAD
-\*-----------------------------------*/
+
 
 .download { padding: 80px 0; }
 
@@ -276,9 +255,7 @@ main { background: var(--xiketic-1); }
 
 
 
-/*-----------------------------------*\
- * #FEATURES
-\*-----------------------------------*/
+
 
 .features {
   padding: 80px 0;
@@ -315,9 +292,7 @@ main { background: var(--xiketic-1); }
 
 
 
-/*-----------------------------------*\
- * #OVERVIEW
-\*-----------------------------------*/
+
 
 .overview { padding: 80px 0; }
 
@@ -367,9 +342,7 @@ main { background: var(--xiketic-1); }
 
 
 
-/*-----------------------------------*\
- * #BLOG
-\*-----------------------------------*/
+
 
 .blog { padding: 80px 0; }
 
@@ -429,9 +402,7 @@ main { background: var(--xiketic-1); }
 
 
 
-/*-----------------------------------*\
- * #FOOTER
-\*-----------------------------------*/
+
 
 footer { background: var(--xiketic-2); }
 
@@ -493,9 +464,7 @@ footer .container { padding: 80px 15px; }
 
 
 
-/*-----------------------------------*\
- * #GO TO TOP
-\*-----------------------------------*/
+
 
 .go-top {
   position: fixed;
@@ -528,25 +497,12 @@ footer .container { padding: 80px 15px; }
 
 
 
-/*-----------------------------------*\
- * #RESPONSIVE 
-\*-----------------------------------*/
-
-/**
- * responsive larger than 360px screen
- */
 
 @media (min-width: 360px) {
 
-  /**
-   * CUSTOM PROPERTY
-   */
+
 
   :root {
-
-    /**
-     * typography
-     */
 
     --fs-1: 42px;
     --fs-2: 32px;
@@ -559,9 +515,7 @@ footer .container { padding: 80px 15px; }
 
 
 
-/**
- * responsive larger than 450px screen
- */
+
 
 @media (min-width: 450px) {
 
@@ -571,9 +525,7 @@ footer .container { padding: 80px 15px; }
 
   :root {
 
-    /**
-     * typography
-     */
+
 
     --fs-1: 48px;
     --fs-2: 36px;
@@ -583,25 +535,16 @@ footer .container { padding: 80px 15px; }
 
 
 
-  /**
-   * FEATURES
-   */
+
 
   .feature-banner-bg { width: 150%; }
 
 
 
-  /**
-   * OVERVIEW
-   */
 
   .overview-content { padding: 0 40px 50px; }
 
 
-
-  /**
-   * BLOG
-   */
 
   .blog-title { --fs-2: 32px; }
 
@@ -613,9 +556,7 @@ footer .container { padding: 80px 15px; }
 
 
 
-/**
- * responsive larger than 600px screen
- */
+
 
 @media (min-width: 600px) {
 
@@ -625,9 +566,7 @@ footer .container { padding: 80px 15px; }
 
   :root {
 
-    /**
-     * typography
-     */
+ 
 
     --fs-1: 52px;
 
@@ -635,9 +574,7 @@ footer .container { padding: 80px 15px; }
 
 
 
-  /**
-   * REUSED STYLE
-   */
+
 
   .container {
     max-width: 520px;
@@ -655,14 +592,12 @@ footer .container { padding: 80px 15px; }
   .blog-title { --fs-2: 42px; }
 
   img.music {
-    width: 350px; /* Cambia este valor al ancho deseado */
+    width: 350px; 
     height: auto; 
-    margin-top: 200px;/* Esto permite que la altura se ajuste automáticamente para mantener la proporción original */
+    margin-top: 200px;
   }
 
-  /**
-   * FOOTER
-   */
+
 
   .footer-brand { margin-bottom: 40px; }
 
@@ -674,23 +609,14 @@ footer .container { padding: 80px 15px; }
 
 
 
-/**
- * responsive larger than 768px screen
- */
 
 @media (min-width: 768px) {
 
-  /**
-   * REUSED STYLE
-   */
 
   .container { max-width: 700px; }
 
 
 
-  /**
-   * DOWNLOAD
-   */
 
   .download-list {
     grid-template-columns: repeat(3, 1fr);
@@ -701,9 +627,7 @@ footer .container { padding: 80px 15px; }
 
 
 
-  /**
-   * FEATURES
-   */
+
 
   .features-item {
     max-width: 450px;
@@ -715,9 +639,7 @@ footer .container { padding: 80px 15px; }
 
 
 
-  /**
-   * BLOG
-   */
+
 
   .blog-list { grid-template-columns: 1fr 1fr; }
 
@@ -733,17 +655,12 @@ footer .container { padding: 80px 15px; }
 
 @media (min-width: 1024px) {
 
-  /**
-   * REUSED STYLE
-   */
+
 
   .container { max-width: 970px; }
 
 
 
-  /**
-   * HEADER
-   */
 
   .navbar {
 
@@ -752,17 +669,17 @@ footer .container { padding: 80px 15px; }
     padding: 10;
     margin-left: -150px;
     box-shadow: none;
-    transition: transform 0.3s ease-in-out; /* Agrega una transición suave */
-  transform: translateY(0); /* La barra de navegación comienza en su posición original */
+    transition: transform 0.3s ease-in-out; 
+  transform: translateY(0); 
 
     
   }
   .hidden {
-  transform: translateY(-100%); /* La barra de navegación se desplaza hacia arriba para ocultarse */
+  transform: translateY(-100%); 
 }
 
 .visible {
-  transform: translateY(0); /* La barra de navegación vuelve a su posición original para mostrarse */
+  transform: translateY(0); 
 }
 
   .nav-open-btn,
@@ -798,9 +715,6 @@ footer .container { padding: 80px 15px; }
 
 
 
-  /**
-   * HERO
-   */
 
   .hero { position: relative; }
 
@@ -819,9 +733,6 @@ footer .container { padding: 80px 15px; }
 
 
 
-  /**
-   * FEATURES
-   */
 
   .features {
     grid-template-columns: repeat(3, 1fr);
@@ -833,10 +744,6 @@ footer .container { padding: 80px 15px; }
   .features-list:last-child li { text-align: left; }
 
 
-
-  /**
-   * OVERVIEW
-   */
 
   .overview-card {
     display: flex;
@@ -853,9 +760,7 @@ footer .container { padding: 80px 15px; }
 
 
 
-  /**
-   * BLOG
-   */
+
 
   .blog-list { grid-template-columns: repeat(3, 1fr); }
 
@@ -863,9 +768,7 @@ footer .container { padding: 80px 15px; }
 
 
 
-  /**
-   * FOOTER
-   */
+
 
   footer .container {
     display: flex;
@@ -883,21 +786,15 @@ footer .container { padding: 80px 15px; }
 
 
 
-/**
- * responsive larger than 1200px screen
- */
+
 
 @media (min-width: 1200px) {
 
-  /**
-   * CUSTOM PROPERTY
-   */
+
 
   :root {
 
-    /**
-     * typography
-     */
+
 
     --fs-1: 60px;
 
@@ -905,17 +802,13 @@ footer .container { padding: 80px 15px; }
 
 
 
-  /**
-   * REUSED STYLE
-   */
+
 
   .container { max-width: 1140px; }
 
 
 
-  /**
-   * HERO
-   */
+
 
   .hero {
     padding-top: 120px;
@@ -928,18 +821,11 @@ footer .container { padding: 80px 15px; }
   }
 
 
-
-  /**
-   * BLOG
-   */
-
   .blog { padding-bottom: 150px; }
 
 
 
-  /**
-   * FOOTER
-   */
+  
 
   footer .container { padding: 20px 15px; }
 
